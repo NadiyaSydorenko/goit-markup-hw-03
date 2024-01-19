@@ -80,6 +80,10 @@ display: block;
 .address-link:focus {
     color: #404BBF;
 }
+img {
+    display: block;
+    max-width: 100%;
+  }
 .hero-section {
     background-color: #2E2F42;
     padding: 188px 0 188px;
