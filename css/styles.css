@@ -11,6 +11,9 @@ ul, ol {
     padding: 0;
     margin: 0;
 }
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
 .container {
 width: 1158px;
 padding: 0 15px;
@@ -101,7 +104,7 @@ img {
     letter-spacing: 1.12px;
     text-transform: capitalize;
     text-align: center;
-    margin: 0;
+    margin: 0 auto 48px auto;
     display: flex;
     max-width: 496px;
 }
@@ -122,7 +125,7 @@ img {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     min-width: 169px;
     height: 56px;
-    margin-top: 48px;
+    margin: 0 auto;
     
 }
 .hero-button:hover,
@@ -133,14 +136,6 @@ img {
 .features {
     background: #fff;
     padding: 120px 0 120px;
-}
-.features-container {
-    display: flex;
-    align-items: center;
-    margin-top: 120px;
-    margin-right: 156px;
-    margin-bottom: 120px;
-    margin-left: 156px;
 }
 .visually-hidden {
     position: absolute;
@@ -242,8 +237,6 @@ img {
     align-items: center;
     gap: 24px;
     flex-wrap: wrap;
-    width: 1128px;
-    height: 1000px;
     row-gap: 48px;
 }
 .portfolio-card {
@@ -275,7 +268,6 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
     display: inline-block;
     margin-bottom: 16px;
 }
